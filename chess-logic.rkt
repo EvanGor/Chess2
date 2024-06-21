@@ -1,9 +1,9 @@
 #lang typed/racket
-(require "../uchicago151/uchicago151.rkt")
-(require "../uchicago151/uc151image.rkt")
+(require "uchicago151/uchicago151.rkt")
+(require "uchicago151/uc151image.rkt")
 (require typed/test-engine/racket-tests)
-(require "../project2/option.rkt")
-(require "../project2/loc.rkt")
+(require "option.rkt")
+(require "loc.rkt")
 
 (define-type PieceType (U 'Pawn 'Bishop 'Knight 'Rook 'King 'Queen))
 (define-type Player (U 'Black 'White))

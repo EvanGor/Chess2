@@ -1,11 +1,11 @@
 #lang typed/racket
 (require typed/test-engine/racket-tests)
-(require "../uchicago151/uchicago151.rkt")
-(require "../uchicago151/uc151image.rkt")
-(require "../uchicago151/uc151universe.rkt")
+(require "uchicago151/uchicago151.rkt")
+(require "uchicago151/uc151image.rkt")
+(require "uchicago151/uc151universe.rkt")
 (require "chess-logic.rkt")
-(require "../project2/loc.rkt")
-(require "../project2/option.rkt")
+(require "loc.rkt")
+(require "option.rkt")
 
 
 ;; Dims is a structure to contain integer dimensions.
